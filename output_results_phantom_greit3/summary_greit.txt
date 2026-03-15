@@ -1,0 +1,30 @@
+GREIT Reconstruction Summary
+============================
+num_electrodes: 8
+drive_pattern: AD
+meas_pattern: AD
+active_channels: 40
+baseline_frames_total: 177
+baseline_settled_range: [20, 176]
+baseline_settled_frames: 157
+phantom_frames_total: 64
+phantom_settled_range: [20, 63]
+phantom_settled_frames: 44
+dropped_incomplete_baseline_frames: 0
+dropped_incomplete_phantom_frames: 0
+frame_normalize: True
+remove_common_mode: True
+dv_rel_mean_pct: -0.815918
+dv_rel_std_pct: 5.132149
+greit_lambda: 0.01
+greit_p: 0.35
+greit_grid: 192
+mesh_h0: 0.1
+clip_percentile: 98.5
+blur_sigma_px: 1.4
+
+Hotspot (|image|-weighted centroid)
+----------------------------------
+x: -0.214450
+y: 0.084266
+radius: 0.230412
